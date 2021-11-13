@@ -23,7 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto", sans-serif;
 }
 
@@ -149,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   top: 0;
 }
-#header .logo {
+#header .logonav {
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -158,10 +163,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-#header .logo a {
+#header .logonav a {
   color: #555555;
 }
-#header .logo img {
+#header .logonav img {
   max-height: 40px;
 }
 
@@ -169,7 +174,6 @@ h1, h2, h3, h4, h5, h6 {
 * Appointment Button
 */
 .appointment-btn {
-  
   color: #00a4f0;
   border-radius: 20px;
   padding: 2px 8px;
@@ -198,7 +202,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
   margin-right: 100px;
-  
 }
 .navbar ul {
   margin: 0;
@@ -210,7 +213,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -223,12 +227,16 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 500;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #00a4f0;
 }
 .navbar .dropdown ul {
@@ -256,7 +264,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #3fbbc0;
 }
 .navbar .dropdown:hover > ul {
@@ -337,12 +347,15 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #555555;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #3fbbc0;
 }
 .navbar-mobile .dropdown ul {
@@ -365,7 +378,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #3fbbc0;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -374,10 +389,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* garistebel */
 .garistebel {
- 
 }
 /* tutupgaris */
-
 
 /*--------------------------------------------------------------
 # Featured Services
@@ -430,7 +443,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 28px;
   margin-bottom: 0;
 }
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.featured-services .icon-box:hover .title a,
+.featured-services .icon-box:hover .description {
   color: #fff;
 }
 .featured-services .icon-box:hover .icon i {
